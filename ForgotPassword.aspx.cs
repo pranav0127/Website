@@ -42,7 +42,7 @@ public partial class ForgotPassword : System.Web.UI.Page
                 string toEmailAddress = dt.Rows[0][3].ToString();
                 string username = dt.Rows[0][1].ToString();
                 string EmailBody = "Hey "+username+ "!<br/> Hope you are doing well. Please click on the below mentioned link to reset your password <br/> http://localhost:51343/RecoverPassword.aspx?id="+myGUID;
-                MailMessage PassRecMail = new MailMessage("harshita8410@gmail.com",toEmailAddress);
+                MailMessage PassRecMail = new MailMessage("Your Email Address",toEmailAddress);
                 PassRecMail.Body = EmailBody;
                 PassRecMail.IsBodyHtml = true;
                 PassRecMail.Subject = "Reset Password";
@@ -52,7 +52,7 @@ public partial class ForgotPassword : System.Web.UI.Page
                 {
                     client.EnableSsl = true;
                     client.UseDefaultCredentials = false;
-                    client.Credentials = new NetworkCredential("harshita8410@gmail.com", "NoneOfYourBusiness");
+                    client.Credentials = new NetworkCredential("Your Email Address", "Your Password");
                     client.Host = "smtp.gmail.com";
                     client.Port = 587;
                     client.DeliveryMethod = SmtpDeliveryMethod.Network;
