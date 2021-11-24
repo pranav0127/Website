@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "..\..\harshita repo\Website\", "{08ED0DEC-F12C-4F23-9E03-C668A503C8BF}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "..\Website\", "{08ED0DEC-F12C-4F23-9E03-C668A503C8BF}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51343"
