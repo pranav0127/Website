@@ -103,7 +103,7 @@
         <asp:Label ID="Label3"  CssClass="control-label"  runat  ="server" Text="Remember Me"></asp:Label><br />
         <asp:Button ID="Button1" CssClass="submit-btn" runat="server" Text="Sign In"  OnClick="btnlogin_Click" ></asp:Button><br /><br />
          <a id="forgot-pass" href="ForgotPassword.aspx">Forgot your password?</a><br/>
-    </form>
+    
   </div>
   
   <!-- Register Box -->
@@ -111,7 +111,7 @@
     <h1>Create Account</h1>
     
   
-    <form>
+    
      
         <asp:TextBox ID="txtUname_Up" runat="server"  placeholder="UserName"></asp:TextBox><br />
          <asp:TextBox ID="txtName_Up" runat="server"  placeholder="Full Name"></asp:TextBox><br />
